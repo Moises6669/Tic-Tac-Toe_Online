@@ -1,0 +1,160 @@
+*{
+    color:white;
+}
+body{
+    background: #e6e8ef/* fallback for old browsers */
+     
+}
+
+.board button {
+    color:#ffa3a5;
+    font-family: 'Press Start 2P', cursive;
+    font-size: x-large;
+    text-shadow: 5px 5px 5px #ffbf81;
+    font-size: 50px;
+}
+
+#message {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 600px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    border: 3px solid rgba(255,255, 255,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0),
+    -3px -2px 3px rgba(255, 255, 255,0.2),
+    2px 2px 2px rgba(0,0,0,0.08) inset;
+} 
+ 
+
+.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    width: 620px;
+    height: 450px;
+    border: none;
+    border-radius: 14px;
+    background: #e6e8ef;
+    box-shadow:  12px 12px 24px #c7c7c7,
+             -12px -12px 24px #f9f9f9;
+}
+
+.board > #r0c0:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+
+.board > #r0c0{
+    transition: box-shadow 0.2s linear 0.2s;
+}
+
+ 
+.board > #r0c1:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+.board > #r0c1{
+    transition: box-shadow 0.2s linear 0.2s;
+}
+
+.board > #r0c2:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+
+.board > #r0c2{
+    transition: box-shadow 0.2s linear 0.2s;
+}
+
+.board > #r1c0:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+
+.board > #r1c0{
+    transition: box-shadow 0.2s linear 0.2s;
+}
+
+.board > #r1c1:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+
+.board > #r1c1{
+    transition: box-shadow 0.2s linear 0.2s;
+} 
+
+.board > #r1c2:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+
+.board > #r1c2{
+    transition: box-shadow 0.2s linear 0.2s;
+} 
+
+.board > #r2c0:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+.board > #r2c0{
+    transition: box-shadow 0.2s linear 0.2s;
+} 
+.board > #r2c1:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+.board > #r2c1{
+    transition: box-shadow 0.2s linear 0.2s;
+} 
+
+.board > #r2c2:hover{
+    border-radius: 16px;
+    background: #a4c3b2;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+
+.board > #r2c2{
+    transition: box-shadow 0.2s linear 0.2s;
+}
+
+ #github{
+     width: 200px;
+     height: 200px;
+     background:black;
+     border-radius: 26px;
+     /* border: 3px solid black; */
+ }
