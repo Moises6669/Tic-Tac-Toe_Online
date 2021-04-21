@@ -4,7 +4,10 @@ const app = express();
 const socketIo = require("socket.io");
 const fs = require("fs");
 const path  = require('path');
-const server = http.Server(app).listen(8080,()=>{
+
+const port = process.env.PORT || 8080;
+
+const server = http.Server(app).listen(()=>{
     console.log('Server on Port 8080');
 });
 const io = socketIo(server);
