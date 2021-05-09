@@ -14,7 +14,7 @@
 - Nodejs
 - Express
 
-- Clone the Repo
+### Clone the Repo
 
 ```
 git clone git@github.com:Moises6669/Tic-Tac-Toe_Online.git
